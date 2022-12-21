@@ -1,6 +1,6 @@
 # Basic-Blockchain-in-Erlang
 
-This project was part of our fifth-semester course in the Computer Science course at the Univerité de Fribourg. 
+This project was part of our fifth-semester course in the Computer Science BsC course at the Univerité de Fribourg. 
 
 # How to Run
 
