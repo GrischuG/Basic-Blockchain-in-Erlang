@@ -23,3 +23,4 @@ erl -sname \#\{name@host\} -setcookie \#\{secret\} -s project start \#\{cli\} \n
 
 ##IMPOPRTANT
 The user interface currently only runs properly on windows systems.
+asdasd
