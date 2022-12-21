@@ -5,7 +5,7 @@ This project was part of our fifth-semester course in the Computer Science BSc c
 # How to Run
 
 ## Requirements
-You need the files \textit{project.erl}, \textit{color.erl} and \textit{color.hrl} and compile the erl files using erlang.
+You need the files project.erl, color.erl and color.hrl and compile the erl files using erlang.
 For the program to run, you need to start it in two terminals. The program does not run until it connects to the second instance. 
 
 ## Commands
