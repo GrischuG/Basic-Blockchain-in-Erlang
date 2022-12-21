@@ -15,7 +15,7 @@ For the program to run, you need to start it in two terminals. The program does 
 - `\#\{secret\}` is the shared secret
 - `\#\{cli\}` true for running in interactive (CLI) mode, false for seeing the automated 'back-end'
 - `\#\{otherName@otherHost\}` is the sname and hostname of the remote (other) erlang node
-- `\#\{NumberofProcesses\}` is the \# of processes that will mine new blocks, more = the blockchain grows faster and the likelihood of forks increases
+- `\#\{NumberofProcesses\}` is the \# of processes that will mine new blocks, more -> the blockchain grows faster and the likelihood of forks increases
 
 ## Examples 
 - `erl -sname foo@localhost -setcookie test -s project start true bar@localhost 3`
