@@ -21,6 +21,6 @@ erl -sname \#\{name@host\} -setcookie \#\{secret\} -s project start \#\{cli\} \n
 - erl -sname foo@localhost -setcookie test -s project start true bar@localhost 3
 - erl -sname bar@localhost -setcookie test -s project start false foo@localhost 60
 
-##IMPOPRTANT
+## IMPOPRTANT
 The user interface currently only runs properly on windows systems.
 
