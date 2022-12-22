@@ -15,13 +15,13 @@ First, compile the project.erl and color.erl file in an Erlang shell with `c(pro
 
 ### Command for the Terminal
 
-`erl -sname \#\{name@host\} -setcookie \#\{secret\} -s project start \#\{cli\} \#\{otherName@otherHost\} \#\{NumberofProcesses\}`
+`erl -sname #{name@host} -setcookie #{secret} -s project start #{cli} #{otherName@otherHost} #{NumberofProcesses}`
 
-- `\#\{name@host\}` is the sname and hostname of the local erlang VM
-- `\#\{secret\}` is the shared secret
-- `\#\{cli\}` true for running in interactive (CLI) mode, false for seeing the automated 'back-end'
-- `\#\{otherName@otherHost\}` is the sname and hostname of the remote (other) erlang node
-- `\#\{NumberofProcesses\}` is the \# of processes that will mine new blocks, more -> the blockchain grows faster and the likelihood of forks increases
+- `#{name@host}` is the sname and hostname of the local erlang VM
+- `#{secret}` is the shared secret
+- `#{cli}` true for running in interactive (CLI) mode, false for seeing the automated 'back-end'
+- `#{otherName@otherHost}` is the sname and hostname of the remote (other) erlang node
+- `#{NumberofProcesses}` is the \# of processes that will mine new blocks, more -> the blockchain grows faster and the likelihood of forks increases
 
 ### Examples 
 - `erl -sname foo@localhost -setcookie test -s project start true bar@localhost 3`
