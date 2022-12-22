@@ -10,6 +10,11 @@ You need the files project.erl, color.erl and color.hrl and compile the erl file
 For the program to run, you need to start it in two terminals. The program does not run until it connects to the second instance. 
 
 ## Commands
+### Compilation of Source Code
+First, compile the project.erl and color.erl file in an Erlang shell with `c(project)`. & `c(color)` .
+
+### Command for the Terminal
+
 `erl -sname \#\{name@host\} -setcookie \#\{secret\} -s project start \#\{cli\} \#\{otherName@otherHost\} \#\{NumberofProcesses\}`
 
 - `\#\{name@host\}` is the sname and hostname of the local erlang VM
@@ -18,7 +23,7 @@ For the program to run, you need to start it in two terminals. The program does 
 - `\#\{otherName@otherHost\}` is the sname and hostname of the remote (other) erlang node
 - `\#\{NumberofProcesses\}` is the \# of processes that will mine new blocks, more -> the blockchain grows faster and the likelihood of forks increases
 
-## Examples 
+### Examples 
 - `erl -sname foo@localhost -setcookie test -s project start true bar@localhost 3`
 - `erl -sname bar@localhost -setcookie test -s project start false foo@localhost 60`
 
