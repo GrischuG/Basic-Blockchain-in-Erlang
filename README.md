@@ -28,7 +28,7 @@ First, compile the project.erl and color.erl file in an Erlang shell with `c(pro
 - `erl -sname bar@localhost -setcookie test -s project start false foo@localhost 60`
 
 ## IMPOPRTANT
-The user interface currently only runs properly on windows systems.
+The user interface currently only runs properly on Windows systems.
 
 
 
