@@ -11,7 +11,7 @@ For the program to run, you need to start it in two terminals. The program does 
 
 ## Commands
 ### Compilation of Source Code
-First, compile the project.erl and color.erl file in an Erlang shell with `c(project)`. & `c(color)` .
+First, compile the project.erl and color.erl file in an Erlang shell with `c(project).` & `c(color).`
 
 ### Command for the Terminal
 
