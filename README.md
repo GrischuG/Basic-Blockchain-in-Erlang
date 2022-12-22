@@ -32,7 +32,7 @@ The user interface currently only runs properly on windows systems.
 
 
 
-% The MIT License (MIT)
+#The MIT License (MIT)
 
 % Copyright © 2022 <Mikkeline Elleby, Marco Gabriel, Lukas Odermatt>
 
